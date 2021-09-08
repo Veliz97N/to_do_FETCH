@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#edecec;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.barra_superior{
+  width:100%;
+  height: 300px;
+  color: #ecdcdd;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+.barra_superior h1{
+  font-size: 20vh;
+  transition:.3s ease-in-out;
+}
+.barra_superior h1:hover{
+  transform: scale(1.1);
+}
+.contenedor_tareas_externo{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.contenedor_tareas_interno{
+  width:600px;
+
+}
+
+.contenedor_tareas_interno li{
+  border-bottom: 1px solid #c3c3c3;
+  list-style: none;
+  padding: 15px;
+  font-size: 4vh;
+  color: #495057;
+  transition:.3s ease-in-out;
+}
+.contenedor_tareas_interno li:hover{
+  transform: scale(1.05);
+}
+
+
+
