@@ -12,7 +12,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 .barra_superior{
   width:100%;
   height: 300px;
@@ -35,9 +34,7 @@ code {
 }
 .contenedor_tareas_interno{
   width:600px;
-
 }
-
 .contenedor_tareas_interno li{
   border-bottom: 1px solid #c3c3c3;
   list-style: none;
@@ -48,6 +45,18 @@ code {
 }
 .contenedor_tareas_interno li:hover{
   transform: scale(1.05);
+}
+.contenedor_tareas_interno li .Icono{
+  float: right;
+}
+
+/* ----------------------PARTE PARA ACTIVAR O DESACTIVAR VISIBILIDAD DE LOS ICONOS EN TODO LIST----------------------------------------------*/
+
+.Desactivado{
+  visibility: hidden;
+}
+.Activado{
+  visibility: visible;
 }
 
 
