@@ -5,7 +5,7 @@ function Barra_superior(props) {
         <div className="barra_superior">
             <h1>{props.usuario}`s Todos</h1>
             <p id="tareas_pendientes">Tareas Pendientes: {props.ListaTareas.filter(t=>!t.done).length}</p>
-            <p id="tareas_listas">Tareas Listas: {props.ListaTareas.filter(t=>t.done).length}</p>
+            <p id="tareas_listas">Tareas Completadas: {props.ListaTareas.filter(t=>t.done).length}</p>
         </div>
     )
 }
