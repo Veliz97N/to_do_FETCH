@@ -6,10 +6,10 @@ import { AiFillCheckCircle } from "react-icons/ai";
 function Tareas(props) {
     const [isShow, setIsShow] = useState(false)  
 
-    return (<li key={props.tarea.nombre}
+    return (<li key={props.tarea.label}
             onMouseOver={()=>setIsShow(true)}
             onMouseLeave={()=>setIsShow(false)}>
-        {props.tarea.nombre} 
+        {props.tarea.label} 
             <FaTimes  className={props.visibilidad==="Invisible"?(isShow ? "Icono Visible":"Icono Invisible"):(isShow ? "Icono Invisible":"Icono Invisible")} 
             onClick={()=>props.toggleTarea(props.tarea)}/> {/*Icono para marcar tarea como lista*/}
             

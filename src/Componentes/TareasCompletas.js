@@ -18,7 +18,7 @@ function TareasCompletas(props) {
                     <div className="modal-content">
                         <FaWindowClose className="close-modal" onClick={toggleModal}/>
                         <h2>Lista de Tareas Completadas</h2>
-                        {props.GeneradorFilaTareasPendientes}
+                        {props.GeneradorFilaTareasPendientes} {/*aca uso generadorfilatareaspendientes*/}
                     </div>
                 </div>
             </div>}
